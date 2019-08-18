@@ -1,6 +1,7 @@
 package com.learning.rxoperators.todolist.util;
 
-import com.learning.rxjavatutorial.todolist.models.Task;
+
+import com.learning.rxoperators.todolist.models.Task;
 
 import java.util.ArrayList;
 import java.util.List;

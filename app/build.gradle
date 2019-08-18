@@ -1,5 +1,8 @@
 apply plugin: 'com.android.application'
 
+def rxJavaDependency = "2.2.7"
+def rxAndroidDependency = "2.1.1"
+
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -25,4 +28,10 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //RX Java dependency
+    implementation "io.reactivex.rxjava2:rxjava:$rxJavaDependency"
+
+    //RX Android dependency
+    implementation "io.reactivex.rxjava2:rxandroid:$rxAndroidDependency"
 }
